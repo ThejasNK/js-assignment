@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+    </head>
+    <body>
+        <script>
+            var date=new Date();
+            var day = date.getDay();
+            var days=["Sunday","Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday"]
+            day=days[day];
+            var hr,min,sec;
+            hr=date.getHours();
+            min=date.getMinutes();
+            sec=date.getSeconds();
+            document.write("Today is :"+ day+".");
+            document.write("<br>");
+            if(hr>12)
+                {
+                    hr-=12;
+                    document.write("Current time is :"+hr+"PM:"+min+":"+sec);
+                }
+            else 
+                {
+                    document.write("Current time is :"+hr+"AM:"+min+":"+sec);
+                }
+        </script>
+
+    </body>
+</html>

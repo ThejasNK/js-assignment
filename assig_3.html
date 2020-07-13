@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Assignment 3</title>
+    </head>
+    <body>
+        <script>
+            var date=new Date(); 
+            var day,month,year;
+            day=date.getDay().toString().padStart(2,"0");
+            month=(date.getMonth()+1).toString().padStart(2,"0");
+            year=date.getFullYear();
+            document.write(month+"-"+day+"-"+year+", ");
+            document.write(month+"/"+day+"/"+year+" or <br>" );
+            document.write(day+"-"+month+"-"+year+",");
+            document.write(day+"/"+month+"/"+year);
+            //all the accepted output formats are being printed
+        </script>
+    </body>
+</html>
