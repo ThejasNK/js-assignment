@@ -1,0 +1,4 @@
+Data types in JavaScript
+ 1. number- data type which stores a numeric value which can be positive, negetive, zero, fraction or decimal.
+ 2.string - stores any type of character i.e. letters, numbers and special characters but should be given in double quotes 
+ 3. objects- also called arrays stores a set of values under a single variable name ,we can also give different labels to each element in the array if required 
