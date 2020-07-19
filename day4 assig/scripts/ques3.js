@@ -1,0 +1,10 @@
+let shoppingList=['shampoo','soap','paneer','eggs'];
+console.log(`The shopping list is ${shoppingBasket}`);
+let shoppingBasket=[...shoppingList];
+shoppingBasket.push('LAYS');
+console.log(`The shopping basket has ${shoppingBasket}`);
+shoppingBasket.push('chocolates');
+console.log(`The shopping basket has ${shoppingBasket}`);
+shoppingBasket.push('cupCakes');
+console.log(`The shopping basket has ${shoppingBasket}`);
+console.log(`The shopping list is ${shoppingBasket}`);
